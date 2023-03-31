@@ -1,0 +1,6 @@
+<div *ngIf="!univar.isValidUserOrNot"><app-login></app-login>
+</div>
+<div *ngIf="univar.isValidUserOrNot" ><app-menu></app-menu>
+</div>
+<div *ngIf="univar.isAtDashboardPage"><app-dashboard></app-dashboard>
+</div>
